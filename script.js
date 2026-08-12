@@ -1,3 +1,25 @@
+// ========================================
+// FIGMA PROTOTYPE LINKS
+// Replace these URLs with your actual
+// Figma prototype links.
+// ========================================
+const figmaLinks = {
+    modlForge: "PASTE_MODL_FORGE_FIGMA_LINK_HERE",
+    ledgerly:  "PASTE_LEDGERLY_FIGMA_LINK_HERE",
+    bite:      "PASTE_BITE_FIGMA_LINK_HERE"
+};
+
+// Wire up every [data-figma] link to the matching URL above.
+// Add data-figma="modlForge" / "ledgerly" / "bite" to any <a class="figma-btn">.
+document.querySelectorAll('[data-figma]').forEach(link => {
+  const key = link.getAttribute('data-figma');
+  if (figmaLinks[key]) {
+    link.setAttribute('href', figmaLinks[key]);
+  }
+  link.setAttribute('target', '_blank');
+  link.setAttribute('rel', 'noopener noreferrer');
+});
+
 // ---- Sticky nav background ----
 const nav = document.querySelector('.nav');
 const onScroll = () => {
@@ -43,16 +65,10 @@ if('IntersectionObserver' in window && revealEls.length){
   revealEls.forEach(el => el.classList.add('is-visible'));
 }
 
-// ---- Resume download (no real file attached — friendly notice) ----
+// ---- Resume download (no real file attached yet — friendly notice) ----
 document.querySelectorAll('[data-resume]').forEach(btn => {
   btn.addEventListener('click', (e) => {
     e.preventDefault();
-    btn.classList.add('is-loading');
-    const original = btn.innerHTML;
-    setTimeout(() => {
-      btn.innerHTML = original;
-      btn.classList.remove('is-loading');
-      alert('Add your resume PDF and link it here — this button is wired up and ready to go.');
-    }, 500);
+    alert('Add your resume PDF and link it here — this button is wired up and ready to go.');
   });
 });
