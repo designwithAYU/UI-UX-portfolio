@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Expense Tracker — Making Personal Finance Easier · Ayushi</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="case-study.css">
+</head>
+<body>
+
+<a href="index.html#work" class="cs-back">← Back to work</a>
+
+<main>
+  <!-- HERO -->
+  <section class="cs-hero">
+    <div class="wrap">
+      <div class="cs-kicker reveal">
+        <span class="work-cat">Fintech UX / Dashboard / Responsive Design</span>
+        <span class="font-mono" style="font-size:12.5px;color:var(--ink-faint)">Case Study 03</span>
+      </div>
+      <h1 class="cs-title reveal">Expense Tracker — making it obvious where your money <em>actually</em> goes.</h1>
+      <p class="cs-desc reveal">A personal finance application designed to help users record expenses, understand spending patterns and manage their money through a simple dashboard.</p>
+
+      <div class="cs-meta reveal">
+        <div><span class="label">Role</span><span class="value">UI/UX Designer</span></div>
+        <div><span class="label">Timeline</span><span class="value">2–3 weeks</span></div>
+        <div><span class="label">Platform</span><span class="value">Responsive — Web &amp; Mobile</span></div>
+        <div><span class="label">Tools</span><span class="value">Figma, Responsive UI</span></div>
+      </div>
+
+      <div class="cs-hero-visual reveal">
+        <div style="display:flex;gap:24px;justify-content:center;height:100%;flex-wrap:wrap">
+          <div class="screen" style="width:340px;height:100%">
+            <div class="screen-head"><i></i><i></i><i></i><span class="font-mono" style="font-size:11px;color:var(--ink-faint);margin-left:8px">Dashboard — Desktop</span></div>
+            <div class="screen-body">
+              <span class="chip">Balance ₹24,500</span>
+              <div class="bar-chart" style="margin-top:14px"><div class="b" style="height:40%"></div><div class="b hi" style="height:75%"></div><div class="b" style="height:55%"></div><div class="b hi" style="height:90%"></div><div class="b" style="height:35%"></div><div class="b" style="height:60%"></div></div>
+            </div>
+          </div>
+          <div class="screen" style="width:150px;height:100%">
+            <div class="screen-head"><i></i><i></i><i></i></div>
+            <div class="screen-body">
+              <span class="chip">Mobile</span>
+              <div class="donut" style="margin-top:14px"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROBLEM -->
+  <section class="cs-section">
+    <div class="wrap cs-two-col">
+      <div class="cs-section-head reveal">
+        <span class="cs-num">01 — Problem</span>
+        <h2 class="cs-h2">People know what they spend. They don't know where it went.</h2>
+      </div>
+      <p class="cs-lead reveal">Users often know how much money they spend but struggle to understand where their money goes — expenses are logged but rarely turned into a pattern anyone can act on.</p>
+    </div>
+  </section>
+
+  <!-- GOAL -->
+  <section class="cs-section" style="background:var(--bg-alt)">
+    <div class="wrap">
+      <div class="cs-section-head reveal">
+        <span class="cs-num">02 — Goal</span>
+        <h2 class="cs-h2">Design a simple system where users can quickly:</h2>
+      </div>
+      <div class="cs-card-grid reveal-stagger">
+        <div class="cs-card reveal" style="--i:0"><span class="mark">01</span><p>Add expenses</p></div>
+        <div class="cs-card reveal" style="--i:1"><span class="mark">02</span><p>Categorize spending</p></div>
+        <div class="cs-card reveal" style="--i:2"><span class="mark">03</span><p>View monthly spending</p></div>
+        <div class="cs-card reveal" style="--i:3"><span class="mark">04</span><p>Understand spending patterns</p></div>
+        <div class="cs-card reveal" style="--i:4"><span class="mark">05</span><p>Monitor budgets</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PERSONA -->
+  <section class="cs-section">
+    <div class="wrap">
+      <div class="cs-section-head reveal">
+        <span class="cs-num">03 — User Persona</span>
+        <h2 class="cs-h2">Designing for a first paycheck, not a finance degree</h2>
+      </div>
+      <div class="persona-card reveal">
+        <div class="persona-avatar">A</div>
+        <div>
+          <div class="persona-name">Aman, 23</div>
+          <div class="persona-role">Young Professional</div>
+          <div class="persona-cols">
+            <div>
+              <h4>Goals</h4>
+              <ul><li>Track monthly spending</li><li>Reduce unnecessary expenses</li><li>Stay within budget</li></ul>
+            </div>
+            <div>
+              <h4>Pain Points</h4>
+              <ul><li>Manual tracking feels tedious</li><li>Existing apps are complicated</li><li>Financial information can feel overwhelming</li></ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FLOW -->
+  <section class="cs-section" style="background:var(--bg-alt)">
+    <div class="wrap">
+      <div class="cs-section-head reveal">
+        <span class="cs-num">04 — User Flow</span>
+        <h2 class="cs-h2">Adding an expense in under ten seconds</h2>
+      </div>
+      <div class="flow reveal">
+        <span class="flow-step">Dashboard</span><span class="flow-arrow">→</span>
+        <span class="flow-step">Add Expense</span><span class="flow-arrow">→</span>
+        <span class="flow-step">Category</span><span class="flow-arrow">→</span>
+        <span class="flow-step">Amount</span><span class="flow-arrow">→</span>
+        <span class="flow-step">Save</span><span class="flow-arrow">→</span>
+        <span class="flow-step">Dashboard Update</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- WIREFRAMES -->
+  <section class="cs-section">
+    <div class="wrap">
+      <div class="cs-section-head reveal">
+        <span class="cs-num">05 — Wireframes</span>
+        <h2 class="cs-h2">Structuring the four core screens</h2>
+      </div>
+      <div class="wf-grid reveal">
+        <div><div class="wf-frame"><div class="wf-box wf-h"></div><div class="wf-box wf-block"></div></div><p class="wf-caption">Dashboard</p></div>
+        <div><div class="wf-frame"><div class="wf-box wf-h" style="width:50%"></div><div class="wf-box wf-line"></div><div class="wf-box wf-line" style="width:60%"></div></div><p class="wf-caption">Add Expense</p></div>
+        <div><div class="wf-frame"><div class="wf-box wf-h"></div><div class="wf-box wf-line"></div><div class="wf-box wf-line"></div><div class="wf-box wf-line"></div></div><p class="wf-caption">Transactions</p></div>
+        <div><div class="wf-frame"><div class="wf-box wf-h" style="width:40%"></div><div class="wf-box wf-block"></div></div><p class="wf-caption">Analytics</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FINAL UI -->
+  <section class="cs-section" style="background:var(--bg-alt)">
+    <div class="wrap">
+      <div class="cs-section-head reveal">
+        <span class="cs-num">06 — Final UI</span>
+        <h2 class="cs-h2">Dashboard, add expense &amp; analytics</h2>
+      </div>
+      <div class="ui-gallery cols-3 reveal">
+        <figure class="ui-shot">
+          <div class="screen" style="height:300px">
+            <div class="screen-head"><i></i><i></i><i></i></div>
+            <div class="screen-body">
+              <span class="chip">Total balance</span>
+              <div style="font-family:'Fraunces',serif;font-size:26px;margin:8px 0">₹24,500</div>
+              <div class="bar" style="width:70%"></div>
+              <div class="bar" style="width:45%"></div>
+              <div class="bar-chart" style="margin-top:12px"><div class="b" style="height:40%"></div><div class="b hi" style="height:75%"></div><div class="b" style="height:55%"></div></div>
+            </div>
+          </div>
+          <figcaption>Dashboard — balance, budget, recent transactions, spending chart</figcaption>
+        </figure>
+        <figure class="ui-shot">
+          <div class="screen" style="height:300px">
+            <div class="screen-head"><i></i><i></i><i></i></div>
+            <div class="screen-body">
+              <span class="chip">Add Expense</span>
+              <div class="comp-input" style="margin-top:14px">Amount</div>
+              <div class="comp-input" style="margin-top:8px">Category</div>
+              <div class="comp-input" style="margin-top:8px">Date</div>
+              <div class="comp-input" style="margin-top:8px">Notes</div>
+              <button class="comp-btn primary" style="width:100%;margin-top:12px;text-align:center;display:block">Save Expense</button>
+            </div>
+          </div>
+          <figcaption>Add Expense — amount, category, date, notes</figcaption>
+        </figure>
+        <figure class="ui-shot">
+          <div class="screen" style="height:300px">
+            <div class="screen-head"><i></i><i></i><i></i></div>
+            <div class="screen-body">
+              <span class="chip">Analytics</span>
+              <div class="donut" style="margin-top:10px"></div>
+              <div class="bar" style="margin-top:14px;width:60%"></div>
+            </div>
+          </div>
+          <figcaption>Analytics — category breakdown &amp; monthly trend</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESPONSIVE -->
+  <section class="cs-section">
+    <div class="wrap">
+      <div class="cs-section-head reveal">
+        <span class="cs-num">07 — Responsive Design</span>
+        <h2 class="cs-h2">One dashboard, two very different layouts</h2>
+        <p class="cs-lead">On desktop, spending charts and recent transactions sit side by side. On mobile, the layout collapses into a single column — balance first, then a compact chart, then a scrollable transaction list — with a bottom tab bar replacing the side navigation.</p>
+      </div>
+      <div class="resp-demo reveal">
+        <div class="screen" style="height:220px">
+          <div class="screen-head"><i></i><i></i><i></i><span class="font-mono" style="font-size:11px;color:var(--ink-faint);margin-left:8px">Desktop</span></div>
+          <div class="screen-body" style="display:grid;grid-template-columns:1fr 1fr;gap:14px;height:calc(100% - 30px)">
+            <div><span class="chip">Balance</span><div class="bar-chart" style="margin-top:10px"><div class="b hi" style="height:70%"></div><div class="b" style="height:40%"></div><div class="b" style="height:60%"></div></div></div>
+            <div><span class="chip">Transactions</span><div class="bar" style="margin-top:10px"></div><div class="bar" style="width:60%"></div><div class="bar" style="width:80%"></div></div>
+          </div>
+        </div>
+        <div class="screen" style="height:260px;max-width:150px;margin:0 auto;display:flex;flex-direction:column">
+          <div class="screen-head"><i></i><i></i><i></i></div>
+          <div class="screen-body" style="flex:1;display:flex;flex-direction:column">
+            <span class="chip">Balance</span>
+            <div class="bar" style="margin-top:10px"></div>
+            <div class="bar" style="width:60%"></div>
+          </div>
+          <div class="tabbar"><i class="on"></i><i></i><i></i><i></i></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- UX IMPROVEMENTS -->
+  <section class="cs-section" style="background:var(--bg-alt)">
+    <div class="wrap">
+      <div class="cs-section-head reveal">
+        <span class="cs-num">08 — UX Improvements</span>
+        <h2 class="cs-h2">Cutting the dashboard down to what matters first</h2>
+      </div>
+      <div class="ba-row reveal">
+        <div class="ba-card before">
+          <span class="ba-label">Before</span>
+          <p style="font-size:15px">Too much information on one screen — balance, budget, every transaction and three charts competed for attention at once.</p>
+        </div>
+        <div class="ba-card after">
+          <span class="ba-label">After — Prioritized</span>
+          <ul class="priority-list">
+            <li><span>1</span> Balance</li>
+            <li><span>2</span> Spending</li>
+            <li><span>3</span> Budget</li>
+            <li><span>4</span> Recent transactions</li>
+            <li><span>5</span> Detailed analytics</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- OUTCOME -->
+  <section class="cs-section" style="border-bottom:1px solid var(--line-soft)">
+    <div class="wrap">
+      <div class="cs-section-head reveal">
+        <span class="cs-num">09 — Outcome</span>
+        <h2 class="cs-h2">Where the design landed</h2>
+      </div>
+      <div class="outcome-grid reveal">
+        <div class="outcome-item"><span class="n">01</span><p>Simplified financial overview</p></div>
+        <div class="outcome-item"><span class="n">02</span><p>Faster expense entry</p></div>
+        <div class="outcome-item"><span class="n">03</span><p>Clear visual hierarchy</p></div>
+        <div class="outcome-item"><span class="n">04</span><p>Fully responsive across devices</p></div>
+        <div class="outcome-item"><span class="n">05</span><p>Reusable components across screens</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BACK TO WORK -->
+  <section class="cs-section" style="border-bottom:none">
+    <div class="wrap" style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:20px">
+      <span class="eyebrow">Back to the beginning</span>
+      <a href="case-study-zivara.html" class="work-link" style="font-size:22px">Zivara — Mental Wellness App <span class="btn-arrow">→</span></a>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="wrap footer-inner">
+    <div class="footer-brand">Ayushi<small>UI/UX Designer · Product Design</small></div>
+    <div class="footer-links">
+      <a href="index.html#work">Work</a>
+      <a href="index.html#about">About</a>
+      <a href="index.html#resume">Resume</a>
+      <a href="index.html#contact">Contact</a>
+    </div>
+    <div class="footer-note">Designed &amp; built with curiosity.</div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
