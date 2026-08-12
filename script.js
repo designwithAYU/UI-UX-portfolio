@@ -4,7 +4,7 @@
 // Figma prototype links.
 // ========================================
 const figmaLinks = {
-    modlForge: "https://www.figma.com/proto/oGThOvsB5RGAtahysd8KXV/MODL-Forge-%E2%80%94-UI-UX-Design?node-id=4-2505&t=sQ8aJBtQcNdaGMU5-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
+    modlForge: "https://www.figma.com/proto/oGThOvsB5RGAtahysd8KXV/MODL-Forge-%E2%80%94-UI-UX-Design?t=FHy4yyKguEXQuQ1P-1",
     ledgerly:  "PASTE_LEDGERLY_FIGMA_LINK_HERE",
     bite:      "PASTE_BITE_FIGMA_LINK_HERE"
 };
