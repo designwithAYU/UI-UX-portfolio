@@ -5,7 +5,7 @@
 // ========================================
 const figmaLinks = {
     modlForge: "https://www.figma.com/proto/oGThOvsB5RGAtahysd8KXV/MODL-Forge-%E2%80%94-UI-UX-Design?t=FHy4yyKguEXQuQ1P-1",
-    ledgerly:  "PASTE_LEDGERLY_FIGMA_LINK_HERE",
+    ledgerly:  "https://www.figma.com/proto/wmGTj54l7tdTn5f6kbxDIk/Legderly-wireframe?node-id=1-3&t=SEIZBuk9KlmpDZgC-1",
     bite:      "PASTE_BITE_FIGMA_LINK_HERE"
 };
 
